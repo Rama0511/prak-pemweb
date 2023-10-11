@@ -1,0 +1,183 @@
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #071952;
+}
+
+.head {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+  
+.gambar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.side {
+    margin-left: 20px;
+    color: white;
+}
+
+.navbar {
+    background-color: #35A29F;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+.nav-list li {
+    margin-right: 20px;
+  }
+  
+.nav-list li:last-child {
+    margin-right: 0;
+  }
+  
+.nav-list a {
+    text-decoration: none;
+    color: #F2F7A1;
+    font-weight: bold;
+  }
+  
+.about-me {
+background-color: #088395;
+padding: 20px;
+}
+
+.about-me h3 {
+font-size: 36px;
+color: #F2F7A1;
+margin-top: 0;
+}
+
+p {
+font-size: 18px;
+color: #F2F7A1;
+margin-top: 20px;
+}
+
+.biodata {
+    background-color: #088395;
+    color: #F2F7A1;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+.biodata td {
+    padding: 8px;
+  }  
+  .biodata td:first-child {
+    font-weight: bold;
+    width: 150px;
+  }
+
+  .menu {
+    font-size: 24px;
+    color: #F2F7A1;
+    background-color: #088395;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #F2F7A1; /* Warna tautan */
+    transition: color 0.3s;
+  }
+  
+  a:hover {
+    color: #f8fc16; /* Warna tautan saat digulirkan */
+  }
+  
+  .Kelebihan {
+    font-size: 24px;
+    color: #F2F7A1;
+    background: #088395;
+  }
+
+  /* Style untuk formulir "Kritik dan Saran" */
+.kritik {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin: 5px 0;
+  }
+  
+  .btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #297fb8;
+  }
+  
+  /* Gaya untuk elemen video */
+.vid {
+    padding-top: 20px;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Gaya untuk elemen audio */
+  .aud {
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+  }
+  footer {
+    margin-left: 50%;
+    color: #333; /* Warna teks */
+    font-size: 18px; /* Ukuran teks */
+    font-weight: bold; /* Tebal */
+    padding: 10px; /* Jarak dari konten di dalamnya */
+  }
+    
+
